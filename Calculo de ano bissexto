@@ -1,0 +1,7 @@
+print(" Ola bem vindo!)
+n1 = int(input(" insire um ano para podermos calcular:    "))
+
+if n1 %4 ==0 and n1 %100 !=0 or n1 %400 ==0:
+	print( n1, "vai ser ano bissexto")
+else:
+	print(n1,"nao e ano bissexto")
